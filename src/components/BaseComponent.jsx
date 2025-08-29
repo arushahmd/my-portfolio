@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../css/BaseComponent.module.css";
 import Sidebar from "./Sidebar";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 import Home from "./pages/Home";
 import Experience from "./pages/Experience";
