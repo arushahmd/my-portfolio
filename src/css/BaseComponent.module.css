@@ -1,0 +1,18 @@
+.main-section {
+  display: grid;
+  grid-template-areas: "sidebar main-content";
+  grid-template-columns: 1fr 7fr;
+  gap: 5px;
+}
+
+.sidebar {
+  grid-area: "sidebar";
+  background-color: #f3f3f3;
+  height: 100vh;
+}
+
+.main-content {
+  grid-area: "main-content";
+  background-color: #f8f9fa;
+  height: 100vh;
+}
